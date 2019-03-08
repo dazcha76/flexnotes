@@ -1,6 +1,6 @@
 import axios from 'axios';
 import types from './types';
-import keys from '../config/keys';
+import keys from '../config/keys'; 
 
 export const fetchUser = () => async dispatch => {
   const res = await axios.get('/api/current_user');
@@ -134,7 +134,7 @@ export function getPanelNum(num) {
     type: types.GET_PANEL_NUM,
     payload: num
   };
-}
+} 
 
 // Notes Action Creator
 export function saveNotes(val, interface_obj) {
