@@ -37,8 +37,8 @@
     "is-hotkey": "^0.1.1",
     "is-image": "^2.0.0",
     "is-url": "^1.2.2",
-    "jquery": "^3.2.1",
-    "lodash": "^4.17.4",
+    "jquery": "^3.4.0",
+    "lodash": "^4.17.11",
     "material-design-icons": "^3.0.1",
     "materialize-css": "^0.100.2",
     "normalize.css": "^8.0.0",
@@ -60,10 +60,10 @@
     "youtube-search-api-with-axios": "^2.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-async-functions": "^6.13.0",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.5",
