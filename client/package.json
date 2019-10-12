@@ -29,7 +29,7 @@
     "url": "https://github.com/conmeconte/flexnotes.git"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.18.1",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.3.7",
     "google-client-api": "^1.0.4",
