@@ -13,7 +13,7 @@ const PORT  = process.env.PORT || 9000;
 
 /* Create connection to Mongo and Load in Auth Strategy */
 /* Mongoose Connection */
-mongoose.connect(keys.mongoURI);
+mongoose.connect(keys.mongoURI, {useNewUrlParser: true});
 mongoose.Promise= global.Promise; 
 
 var db = mongoose.connection; 

@@ -7,9 +7,6 @@ const keys = require('../config/keys');
 const { User, Binder, Tab, Page, Note, Video } = require('../models');
 
 
-
-
-
 module.exports = app => {
     app.get('/auth/google', passport.authenticate('google', {
         scope: ['profile', 'email']
