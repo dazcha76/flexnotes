@@ -14,7 +14,7 @@ module.exports = {
             {
                 test: /\.js|.jsx?$/,
                 use: [ 'babel-loader' ],
-                exclude: /node_modules/
+                exclude: /node_modules(?!\/is-image)/
             },
             {
                 test: /\.css$/,
@@ -42,6 +42,9 @@ module.exports = {
                 NODE_ENV: JSON.stringify('production')
             }
         }),
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true,
+            uglifyOptions: { ecma: 8 },
+        })
     ]
 };
