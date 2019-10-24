@@ -29,6 +29,6 @@ FlexNotes is a note taking web application built by team of five using mongoDB, 
 - [Josh](https://github.com/jauxsh)
 
 
-### Lve Site
+### Live Site
 
 [https://flexnotes.danikaquinteros.com/](https://flexnotes.danikaquinteros.com/)
