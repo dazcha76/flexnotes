@@ -66,14 +66,9 @@ class LandingPage extends Component {
                         </div>
                         <div className="google-div">
                             <div className="login-info">
-                                <h3 className="login-info-h3">{!this.props.auth ? 'Sign In' : 'Sign Out'} <span className={!this.props.auth ? 'glyphicon glyphicon-user' : ''}></span></h3>
-                           
                                 <button onClick={this.props.fetchSampleUser} className="btn sample">Try it!</button>
                             </div>
                         </div>
-                    </div>
-                    <div className="email-wrapper">
-                        <span>Contact Us: </span><a href="mailto:info.flexnotes@gmail.com">info.flexnotes@gmail.com</a>
                     </div>
                 </div>
             </div>
